@@ -1,0 +1,197 @@
+#all
+{
+ height:auto;
+ display:grid;
+ grid-template-rowsS:10% 20% 35% 2% 10%;
+ grid-gap:2px;
+}
+nav
+{
+ background-color:blue;
+ height:30px;
+}
+
+a 
+ {
+  text-decoration:none;
+  color:black;
+  margin-left:90%;
+  text-size:15px;
+ }
+a:hover
+{
+ color:white;	
+} 
+
+#b
+{
+ background:url("tata1.jfif");
+ background-size:100%;
+ }
+ ol #b
+ {
+  position:sticky;	 
+ }
+ 
+ li
+{
+ display:inline-block;
+ font-size:15px;
+ color:white;
+ margin-left:5px;
+ text-transform:uppercase;
+ padding-top:5px;
+ }
+li:hover
+{
+	color:blue;
+}
+#b2 
+{
+ margin-left:100px;
+ margin-top:20px;
+ padding:40px; 
+ font-size:50px;
+ color:white;
+ font-weight:bold;
+}
+#b3:hover
+{
+ color:blue;	
+}
+#b3
+{
+ text-decoration:underline;	
+ margin-left:10px;
+ color:white;
+ font-size:20px;
+}	
+#c
+{
+ margin-top:5px;
+ margin-left:20px; 
+ padding-left:40px;
+}
+#c1
+{
+ padding:20px;
+ font-family:Engravers MT; 
+ font-size:20px;
+}
+#as
+{
+ background-image:url('t4.jfif');
+ background-size:110%;
+ grid-template-columns:28% 35% 30%;
+ grid-gap:2%;
+ display:grid; 
+ margin-left:110px;
+}
+#as1
+{
+ margin-right:20px;
+ padding-left-right:20px;
+ padding-bottom:250px;
+ text-align:center; 
+}
+#as2
+{
+ color:blue; 
+ text-decoration:underline;
+ cursor:pointer;
+ font-size:20px;
+}
+#as3
+{
+ padding-left:110px;
+ padding-top:80px; 
+}
+#ar
+{
+ background:url('t5.jfif');
+ background-size:100%;
+ border-radius:25px;
+}
+#ar1
+{
+ font-size:40px;		
+}
+#ar2
+{
+ font-family:Arial Narrow;
+ font-size:50px; 
+ margin-right:800px;
+}
+#ar3
+{
+ font-family:Arial Narrow;
+ font-size:30px;
+ padding-right:515px;
+}
+#ar4 input[value="Read More"]
+{
+ background-color:darkblue;
+ color:white;
+ border-radius:30px;
+ font-size:25px;
+ cursor:pointer;
+}
+#ar4
+{
+ padding-bottom:250px;
+ margin-left:30px; 
+}
+#ar,#ar1,#ar2,#ar3
+{
+ margin-left:30px;	
+ color:white;
+}
+
+#lis
+{
+ grid-template-columns:16% 16% 16% 16% 16% 16%;
+ grid-gap:4%;
+ display:grid;
+ color:black;
+ background-color:#1a237e ;
+ font-family:Arial Narrow;
+}
+.ols,#mg2
+{
+ color:#0000FF;
+ text-decoration:underline; 
+ font-size:17px;
+}
+#mg
+{
+ grid-template-columns:50% 45%;
+ display:grid;
+ grid-gap:5%; 
+ background-color:#1a237e;
+}
+strong,#mg3
+{	
+font-family:Arial Narrow;
+}
+#mg3
+{
+  color:white;
+ font-size:18px;
+ margin-top:180px;
+ margin-left:140px;
+}
+#mg3:hover
+{
+ color:#0000FF;
+ cursor:pointer; 
+}	
+#mg strong
+{
+ margin-top:50px;
+ color:white; 
+}
+	
+#mg1
+{
+ padding-left:30px;	
+}
